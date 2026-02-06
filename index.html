@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purpose - Innovación con propósito</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <a href="#inicio" class="logo">
+                <img src="./img/logo.png" alt="" width="100%">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#conocenos">Conócenos</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><button class="btn-contact" onclick="document.getElementById('contactanos').scrollIntoView({behavior: 'smooth'})">Contáctanos</button></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio">
+        <video class="video-background" autoplay muted loop playsinline>
+            <source src="./video/video-portada.mp4?v2" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="hero-content">
+            <div class="box-titulo">
+                <h1>
+                    Innovamos <br> con propósito para dar
+                    <strong>dirección al crecimiento</strong>                    
+                </h1>
+                <a href="#proyectos">Explora nuestros proyectos</a>                
+            </div>
+            <div class="box-bajada">
+                <img src="./img/flecha-header.png" alt="" width="100%">
+                <p>
+                    Co-creamos la estrategia que impulsa la innovación, integra tecnología y potencia a los equipos para construir el futuro de tu organización. <b>Descubre cómo crecemos con propósito</b>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONOCENOS -->
+    <section id="conocenos">
+        <div class="section-content">
+            <div class="team-section">
+                <div class="team-image">
+                    <div class="blue-circle"></div>
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800" alt="Equipo trabajando">
+                </div>
+                <div class="team-text">
+                    <h2>El equipo detrás de cada proyecto</h2>
+                    <p>
+                        Nuestro equipo está conformado por colaboradores de distintas profesiones que se mantienen en constante actualización y dan su 100%. Nuestra misión consiste en ayudar las ideas de nuestros socios.
+                    </p>
+                    <p>
+                        Nuestra contribución de cada asesoría: Más allá de categorizar en las industrias. Era importante que permite comprender los desafíos de cada caso y enfoque a las ideas y procesos. Entregamos la organización. Destaca tus sueños únicos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- METODOLOGIA -->
+    <section id="metodologia">
+        <div class="section-content">
+            <div class="metodologia-header">
+                <p>NUESTRA METODOLOGÍA</p>
+                <h2>Así hacemos que la innovación<br>genere impacto real</h2>
+                <p style="color: #666; max-width: 600px; margin: 1rem auto;">
+                    Operamos soluciones a la medida de cada organización.
+                </p>
+            </div>
+            <div class="metodologia-grid">
+                <div class="metodologia-card">
+                    <div class="metodologia-icon"></div>
+                    <h3>Modelo centrado en<br>un propósito</h3>
+                    <p>Diseñamos la innovación desde un propósito concreto, alineado con los objetivos de la organización.</p>
+                </div>
+                <div class="metodologia-card">
+                    <div class="metodologia-icon"></div>
+                    <h3>El poder de la<br>colaboración</h3>
+                    <p>Construimos soluciones que conectan distintas disciplinas, filosofías y contextos para crear valor.</p>
+                </div>
+                <div class="metodologia-card">
+                    <div class="metodologia-icon"></div>
+                    <h3>Innovación basada<br>en evidencia</h3>
+                    <p>Validamos decisiones gracias con datos y análisis que trazan rutas claras y sostenibles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section id="portafolio">
+        <div class="section-content">
+            <div class="portafolio-header">
+                <p>PORTAFOLIO</p>
+                <h2>Co-creando el futuro</h2>
+                <p style="color: var(--text-gray); max-width: 700px; margin: 1rem auto;">
+                    Nuestro portafolio promueve la colaboración entre actores clave para mejorar resultados de organizaciones, industrias y territorios.
+                </p>
+            </div>
+            <div class="slider-container">
+                <div class="slider-wrapper" id="portfolioSlider">
+                    <!-- Slides will be generated by JavaScript -->
+                </div>
+                <div class="portfolio-bullets" id="portfolioBullets">
+                    <!-- Bullets will be generated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+        <div class="section-content">
+            <div class="proyectos-header">
+                <p>NUESTROS PROYECTOS</p>
+                <h2>Innovación aplicada con<br>impacto real</h2>
+                <p style="color: #666; max-width: 700px; margin: 1rem auto;">
+                    Acompañamos a organizaciones públicas y privadas en el diseño e implementación de soluciones innovadoras para generar impactos reales, medibles y sostenibles.
+                </p>
+            </div>
+            <div class="proyectos-scroll-container">
+                <div class="proyectos-wrapper" id="proyectosWrapper">
+                    <div class="proyectos-track" id="proyectosTrack">
+                        <!-- Projects will be generated by JavaScript -->
+                    </div>
+                </div>
+                <div class="scroll-bullets" id="proyectosBullets">
+                    <!-- Bullets will be generated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT DETAIL -->
+    <div class="project-detail" id="projectDetail">
+        <button class="close-detail" onclick="closeProjectDetail()">×</button>
+        <div class="project-detail-header"></div>
+        <div class="project-detail-content">
+            <div class="project-sidebar" id="projectSidebar">
+                <!-- Sidebar content will be injected -->
+            </div>
+            <div class="project-main" id="projectMain">
+                <!-- Main content will be injected -->
+            </div>
+        </div>
+        <div class="related-projects">
+            <div class="section-content">
+                <h2>Explora más proyectos</h2>
+                <div class="related-grid" id="relatedGrid">
+                    <!-- Related projects will be generated -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <section id="contactanos">
+        <div class="cta-content">
+            <div class="cta-text">
+                <h2>Pensamiento que transforma</h2>
+                <p>Compartimos ideas, datos y experiencias sobre innovación con impacto.</p>
+            </div>
+            <button class="btn-cta">Ver publicaciones</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <div class="footer-logo">
+                    <div class="logo-icon"></div>
+                    Purpose
+                </div>
+                <p class="footer-text">Innovación con propósito para generar impacto real</p>
+            </div>
+            <div class="social-links">
+                <div class="social-icon">f</div>
+                <div class="social-icon">in</div>
+                <div class="social-icon">@</div>
+            </div>
+            <p style="font-size: 0.85rem; opacity: 0.6;">© 2025 Purpose Lab - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
