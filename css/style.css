@@ -797,6 +797,15 @@
             margin-right: -12%;
         }
 
+        .cta-content video{
+            border-radius: 150px;
+            max-width: 300px;
+            margin-right: -10%;
+            height: 275px;
+            width: 275px;
+            object-fit: cover;
+        }
+
         .btn-cta {
             background: white;
             color: #000;
