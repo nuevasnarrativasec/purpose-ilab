@@ -293,7 +293,7 @@
         /* METODOLOGIA SECTION */
         #metodologia {
             background: #fff;
-            padding: 8rem 5%;
+            padding: 8rem 0rem 9rem;
             color: #000;
         }
 
@@ -361,24 +361,32 @@
         /* PORTAFOLIO SECTION */
         #portafolio {
             background: var(--dark-bg);
-            padding: 8rem 5%;
+            padding: 0 0 8rem;
             overflow: hidden;
         }
 
         .portafolio-header {
+            background: #fff;
             text-align: center;
-            margin-bottom: 4rem;
+            padding-bottom: 4rem;
         }
 
         .portafolio-header p {
+            font: .9rem / 1.1 'Satoshi Bold';
             text-transform: uppercase;
             color: var(--primary-blue);
-            font-weight: 600;
             margin-bottom: 1rem;
         }
 
         .portafolio-header h2 {
-            font-size: 2.5rem;
+            color: rgba(18, 18, 24, 1);
+            font: 2.8rem/1.1 'Zalando Sans Expanded Medium';
+        }
+
+        p.bajada-portafolio {
+            color: rgba(18, 18, 24, 1);
+            font: 1.1rem/1.7 'Satoshi Medium';
+            text-transform: none;
         }
 
         .slider-container {
