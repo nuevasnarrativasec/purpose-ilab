@@ -9,7 +9,7 @@
                     "Hoja de Ruta y Oferta de Servicios de Innovación",
                     "Diseño de Programas de Incubación de alto impacto"
                 ],
-                image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800"
+                image: "../img/bg-slider-1.jpg"
             },
             {
                 title: "Innovación Corporativa",
@@ -21,7 +21,7 @@
                     "Estrategia de Innovación",
                     "Diseño de proyectos y mapa de oportunidades"
                 ],
-                image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800"
+                image: "../img/bg-slider-2.jpg"
             },
             {
                 title: "Gobierno y Políticas Públicas",
@@ -33,7 +33,7 @@
                     "Agendas de innovación",
                     "Paquetes tecnológicos"
                 ],
-                image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800"
+                image: "../img/bg-slider-3.jpg"
             }
         ];
 
