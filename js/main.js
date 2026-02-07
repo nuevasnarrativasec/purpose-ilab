@@ -43,7 +43,7 @@
                 id: 1,
                 tag: "Portafolio Corporativo",
                 title: "Innovación Abierta para el Tratamiento de efluentes y Contaminación en el sector Ganadero",
-                reto: "Efluentes contaminantes y altos costos regulatorios.",
+                reto: "<p><strong>Reto:</strong> Efluentes contaminantes y altos costos regulatorios.</p>",
                 image: "../img/bg-portafolio-1.jpg",
                 description: "El tratamiento ineficiente de efluentes es un desafío ambiental y operativo para el sector ganadero, con impactos en suelo, agua y costos regulatorios. Este proyecto, desarrollado con una empresa ganadera, buscó transformar los residuos en recursos valiosos, como energía y fertilizantes, mediante tecnologías innovadoras. A través de un programa de innovación abierta, se realizó un estudio de vigilancia tecnológica para identificar soluciones como digestores anaeróbicos, membranas avanzadas, procesos de oxidación y biofiltración.",
                 additionalInfo: "",
@@ -54,24 +54,46 @@
                 id: 2,
                 tag: "Portafolio Corporativo",
                 title: "Innovación Abierta para la Seguridad Vial (transporte)",
-                reto: "Reducir accidentes causados por factores humanos en el transporte.",
+                reto: "<p><strong>Reto:</strong> 70% de accidentes causados por factores humanos. explorar e instalar tecnologías que reduzcan los accidentes por factores humanos.</p>",
                 image: "../img/bg-portafolio-2.jpg",
-                description: "Los accidentes de tránsito representan una de las principales causas de mortalidad y lesiones graves a nivel mundial, con un alto porcentaje atribuible a factores humanos. Este proyecto, desarrollado para el sector del transporte, tuvo como objetivo identificar y evaluar soluciones tecnológicas capaces de prevenir accidentes mediante la detección temprana de comportamientos de riesgo en conductores. A través de un programa de innovación abierta, se llevó a cabo un ejercicio de vigilancia tecnológica que permitió mapear tecnologías emergentes en áreas como monitoreo de fatiga, detección de distracciones y sistemas de asistencia a la conducción.",
-                additionalInfo: "El enfoque de innovación abierta facilitó la conexión con startups, centros de investigación y desarrolladores tecnológicos especializados en soluciones de seguridad vial. Este modelo permitió evaluar tecnologías desde múltiples perspectivas, considerando no solo su efectividad técnica, sino también su viabilidad operativa, costos de implementación y compatibilidad con las flotas y sistemas actuales del sector transporte.",
-                challenge: "A partir de la vigilancia tecnológica realizada, se identificaron tecnologías con diferentes grados de madurez, que van desde sensores biométricos y cámaras de reconocimiento facial hasta sistemas integrados de inteligencia artificial para la predicción de riesgos. La priorización de estas soluciones consideró tanto el potencial de impacto en la reducción de accidentes como la factibilidad de escalamiento en operaciones de transporte masivo o de carga.",
-                impact: "El proyecto destacó la relevancia de adoptar un enfoque preventivo y basado en datos para mejorar la seguridad vial. Más allá de cumplir con normativas, la implementación de estas tecnologías puede transformar la gestión de flotas, reducir costos asociados a siniestros y, sobre todo, proteger vidas. Además, refuerza el compromiso del sector transporte con la innovación responsable y la sostenibilidad operativa."
+                description: "Cada año, los accidentes de tránsito causan 1.2 millones de muertes en el mundo. En Perú, solo en 2024 hubo 86,757 siniestros, con 56,747 heridos y 3,002 fallecidos, el 70 % atribuidos a errores humanos, principalmente en ómnibus. Este proyecto, en alianza con una empresa líder del sector transporte, aplica Inteligencia Artificial para mejorar la seguridad vial. Analiza en tiempo real la velocidad, aceleración y patrones de manejo, identificando riesgos y previniendo accidentes. Además, incorpora un sistema de detección de somnolencia basado en visión computacional y redes neuronales, permitiendo una respuesta inmediata ante posibles riesgos.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
             },
             {
                 id: 3,
                 tag: "Portafolio Corporativo",
-                title: "Cierre de Minas Regen Biotecnología",
-                reto: "Reducir el impacto ambiental (relaves) ácido.",
+                title: "El Cierre de Minas en el Perú: Logrando un Cierre de Minas Regenerativo e Integrado a través de la Biotecnología",
+                reto: "<p><strong>Reto:</strong> Transformar el cierre de minas en el Perú hacia un modelo regenerativo y sostenible, capaz de reducir el drenaje ácido y las altas concentraciones de sulfatos.</p>",
                 image: "../img/bg-portafolio-3.jpg",
-                description: "El cierre de minas representa uno de los mayores desafíos ambientales en la industria extractiva, especialmente cuando se trata de relaves ácidos que pueden contaminar suelos y cuerpos de agua durante décadas. Este proyecto, desarrollado en colaboración con una empresa minera, tuvo como objetivo identificar soluciones biotecnológicas innovadoras para neutralizar la acidez y estabilizar los relaves, minimizando el impacto ambiental a largo plazo.",
-                additionalInfo: "A través de un enfoque de innovación abierta, se realizó un ejercicio de vigilancia tecnológica que permitió identificar tecnologías emergentes en el campo de la biotecnología aplicada a la remediación ambiental. Se exploraron alternativas como el uso de microorganismos para la neutralización de pH, sistemas de fitorremediación y la aplicación de biorecubrimientos para estabilizar superficies contaminadas.",
-                challenge: "El proceso de evaluación consideró no solo la efectividad técnica de las soluciones, sino también su viabilidad económica, escalabilidad operativa y compatibilidad con las condiciones específicas del sitio minero. Se priorizaron tecnologías que pudieran integrarse con los planes de cierre existentes y que ofrecieran beneficios adicionales, como la recuperación de suelos para otros usos productivos.",
-                impact: "Este proyecto evidencia cómo la innovación puede transformar pasivos ambientales en oportunidades de restauración ecológica. La implementación de soluciones biotecnológicas no solo reduce riesgos ambientales, sino que también fortalece la responsabilidad social de la empresa minera y contribuye a la sostenibilidad del sector en el largo plazo."
-            }
+                description: "El proyecto busca validar e implementar un modelo integral de cierre de minas basado en biotecnología, que combine humedales reactivos, consorcios de bacterias sulfatoreductoras y producción masiva de plantas nativas mediante biotecnología vegetal. Esta solución permitirá tratar aguas ácidas con alto contenido de sulfatos, restaurar ecológicamente áreas degradadas y estabilizar relaves y efluentes mineros, generando protocolos escalables y transferibles al sector, con miras a convertir antiguos pasivos ambientales en activos de desarrollo sostenible para los territorios.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
+            {
+                id: 4,
+                tag: "Portafolio de Gobierno",
+                title: "Programa de Comercialización de Tecnologías para CONCYTEC",
+                reto: "",
+                image: "../img/bg-portafolio-4.jpg",
+                description: "El proyecto busca brindar herramientas y mejores prácticas para apoyar la identificación de oportunidades y la comercialización a los desarrollos científicos y tecnológicos de los centros de I+D y universidades. Además de generar vínculos y asociaciones entre la industria y el sector académico de la región, procurando una mejor alineación entre los desafíos de la industria y las soluciones desarrolladas por la academia. El propósito es acercar los resultados de la investigación a la sociedad logrando generar un mayor impacto y la apropiación social del conocimiento.  Asimismo, como resultado del programa, se dejó en los participantes no solamente capacidades, sino también documentos de referencia para la elaboración de marketing tecnológico, manuales y guías de trabajo para la identificación, evaluación y ejecución de los procesos de transferencia tecnológica, así como para la valuación de las tecnologías y la generación de habilidades de negociación con posibles socios, inversores, licenciatarios y demás partes interesadas.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
+            {
+                id: 5,
+                tag: "Portafolio Universidad",
+                title: "Diagnóstico innovación y transferencia tecnológica",
+                reto: "<p><strong>Reto:</strong> Evaluar las necesidades y brechas para transferir conocimiento de la investigación al mercado.</p>",
+                image: "../img/bg-portafolio-5.jpg",
+                description: "En este proyecto ayudamos a una universidad a analizar las capacidades instaladas y las brechas para transferir conocimiento desde la investigación científica hacia la industria. Con nuestro modelo que permite analizar 4 grandes dimensiones para la innovación y transferencia tecnológica, nos reunimos con gestores tecnológicos, rectores y vicerrectores, directivos, investigadores y académicos para evaluar la ruta hacia el mercado de manera estratégica y colaborativa.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
         ];
 
         // Initialize Portfolio Slider
@@ -171,7 +193,7 @@
                     <div class="proyecto-info">
                         <span class="proyecto-tag">${project.tag}</span>
                         <h3>${project.title}</h3>
-                        <p class="proyecto-reto"><strong>Reto:</strong> ${project.reto}</p>
+                        <div class="proyecto-reto">${project.reto}</div>
                     </div>
                 `;
                 track.appendChild(card);
@@ -226,7 +248,7 @@
             `;
             
             main.innerHTML = `
-                <h3><strong>Reto:</strong> ${project.reto}</h3>
+                <div>${project.reto}</div>
                 <img src="${project.image}" alt="${project.title}">
                 <p>${project.description}</p>
                 <p>${project.additionalInfo}</p>
@@ -252,7 +274,7 @@
                     <div class="proyecto-info">
                         <span class="proyecto-tag">${p.tag}</span>
                         <h3>${p.title}</h3>
-                        <p class="proyecto-reto"><strong>Reto:</strong> ${p.reto}</p>
+                        <div class="proyecto-reto">${p.reto}</div>
                     </div>
                 `;
                 relatedGrid.appendChild(card);
