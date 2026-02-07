@@ -199,6 +199,7 @@
         }
             .box-bajada img{
                 display: inline-block;
+                margin: 0 10px;
                 max-width: 100px;
                 vertical-align: top;
             }
@@ -267,15 +268,26 @@
         }
 
         .team-text h2 {
-            font-size: 2.5rem;
+            font: 2.8rem/1.1 'Zalando Sans Expanded Medium';
             margin-bottom: 2rem;
-            line-height: 1.3;
         }
 
         .team-text p {
             color: var(--text-gray);
-            line-height: 1.8;
+            font: 1rem/1.8 'Satoshi Medium';
             margin-bottom: 1.5rem;
+        }
+
+            .team-text p span{
+                color: #fff;
+                font-family: 'Satoshi Bold';
+            }
+
+        .team-text h6 {
+            color: #2627ff;
+            font: .9rem/1.1 'Satoshi Bold';
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
         }
 
         /* METODOLOGIA SECTION */
@@ -291,14 +303,19 @@
         }
 
         .metodologia-header p {
-            text-transform: uppercase;
+            font: .9rem/1.1 'Satoshi Bold';
             color: var(--primary-blue);
-            font-weight: 600;
             margin-bottom: 1rem;
+            letter-spacing: 1px;
+        }
+
+        .metodologia-header p.bajada{
+            font: 1.1rem/1.8 'Satoshi Medium';
+            letter-spacing: normal;
         }
 
         .metodologia-header h2 {
-            font-size: 2.5rem;
+            font: 2.8rem/1.1 'Zalando Sans Expanded Medium';
             margin-bottom: 1rem;
         }
 
@@ -314,6 +331,11 @@
             text-align: center;
         }
 
+        .metodologia-card img {
+            max-width: 130px;
+            margin: 0 auto 1.5rem;
+        }
+
         .metodologia-icon {
             width: 80px;
             height: 80px;
@@ -327,13 +349,13 @@
         }
 
         .metodologia-card h3 {
-            font-size: 1.3rem;
+            font: 1.4rem/1.2 'Satoshi Medium';
             margin-bottom: 1rem;
         }
 
         .metodologia-card p {
             color: #666;
-            line-height: 1.6;
+            font: 1.1rem/1.6 'Satoshi Medium';
         }
 
         /* PORTAFOLIO SECTION */
