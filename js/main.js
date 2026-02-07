@@ -42,13 +42,13 @@
             {
                 id: 1,
                 tag: "Portafolio Corporativo",
-                title: "Innovación abierta para el Tratamiento de Efluentes en el Sector Ganadero",
+                title: "Innovación Abierta para el Tratamiento de efluentes y Contaminación en el sector Ganadero",
                 reto: "Efluentes contaminantes y altos costos regulatorios.",
                 image: "../img/bg-portafolio-1.jpg",
-                description: "El tratamiento ineficiente de efluentes es un desafío ambiental y operativo para el sector ganadero, con impactos en suelo, agua y costos regulatorios. Este proyecto, desarrollado con una empresa ganadera, buscó transformar los residuos en recursos valiosos, como energía y fertilizantes, mediante tecnologías innovadoras. A través de un programa de innovación abierta, se realizó un estudio de vigilancia tecnológica para identificar soluciones como digestores anaeróbicos, sistemas de membranas y biofiltración, evaluando su viabilidad técnica y compatibilidad regulatoria.",
-                additionalInfo: "El enfoque de innovación abierta permitió ampliar el radar de soluciones más allá de las alternativas tradicionales, integrando conocimiento de startups, centros de investigación y proveedores tecnológicos especializados. Este modelo facilitó la identificación de tecnologías con distintos niveles de madurez, evaluando no sólo su viabilidad técnica, sino también su compatibilidad con las condiciones operativas y regulatorias del sector ganadero.",
-                challenge: "A partir del proceso de vigilancia tecnológica, se priorizaron soluciones con potencial de implementación operativa, capaces de reducir la carga contaminante de los efluentes y, al mismo tiempo, generar valor económico. Tecnologías como los digestores anaeróbicos abren oportunidades para la producción de biogas, mientras que sistemas de membranas y biofiltración permiten mejorar la calidad del agua tratada y avanzar hacia esquemas de reutilización.",
-                impact: "El proyecto también puso en evidencia la importancia de abordar la gestión de efluentes desde una mirada sistémica. Más allá del cumplimiento normativo, la transformación de residuos en recursos contribuye a mejorar la eficiencia operativa, reducir riesgos ambientales y fortalecer la sostenibilidad del negocio ganadero en el largo plazo."
+                description: "El tratamiento ineficiente de efluentes es un desafío ambiental y operativo para el sector ganadero, con impactos en suelo, agua y costos regulatorios. Este proyecto, desarrollado con una empresa ganadera, buscó transformar los residuos en recursos valiosos, como energía y fertilizantes, mediante tecnologías innovadoras. A través de un programa de innovación abierta, se realizó un estudio de vigilancia tecnológica para identificar soluciones como digestores anaeróbicos, membranas avanzadas, procesos de oxidación y biofiltración.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
             },
             {
                 id: 2,
@@ -226,7 +226,7 @@
             `;
             
             main.innerHTML = `
-                <h3>Reto: ${project.reto}</h3>
+                <h3><strong>Reto:</strong> ${project.reto}</h3>
                 <img src="${project.image}" alt="${project.title}">
                 <p>${project.description}</p>
                 <p>${project.additionalInfo}</p>

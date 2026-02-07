@@ -145,6 +145,22 @@
 
     <!-- PROJECT DETAIL -->
     <div class="project-detail" id="projectDetail">
+        <header>
+            <nav>
+                <a href="#inicio" class="logo">
+                    <img src="./img/logo.png" alt="" width="100%">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#conocenos">Conócenos</a></li>
+                    <li><a href="#metodologia">Metodología</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><button class="btn-contact" onclick="document.getElementById('contactanos').scrollIntoView({behavior: 'smooth'})">Contáctanos</button></li>
+                </ul>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </header>
         <button class="close-detail" onclick="closeProjectDetail()">×</button>
         <div class="project-detail-header"></div>
         <div class="project-detail-content">
@@ -163,6 +179,36 @@
                 </div>
             </div>
         </div>
+        <section id="contactanos">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Pensamiento que transforma</h2>
+                    <p>Compartimos ideas, datos y experiencias sobre innovación con impacto.</p>
+                    <button class="btn-cta">Ver publicaciones</button>
+                </div>
+                <video src="./video/video-footer.mp4" width="100%" height="100%" autoplay muted loop></video>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">
+                        <img src="./img/logo.png" alt="" width="100%">
+                    </div>
+                    <p class="footer-text">Innovación con propósito para generar impacto real</p>
+                </div>
+                <div class="box-redes-footer">
+                    <div class="social-links">
+                        <div class="social-icon" id="facebook">f</div>
+                        <div class="social-icon" id="linkedin">i</div>
+                        <div class="social-icon" id="youtube">y</div>
+                    </div>      
+                    <p>
+                        © 2025 Purpose Lab - Todos los derechos reservados
+                    </p>
+                </div>            
+            </div>
+        </footer>
     </div>
 
     <!-- CTA -->
