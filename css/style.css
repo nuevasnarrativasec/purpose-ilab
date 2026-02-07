@@ -40,9 +40,15 @@
 }
 
 @font-face {
+    font-family: 'Satoshi Regular';
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+        url('../fonts/Satoshi-Regular.woff') format('woff');
+}
+
+@font-face {
     font-family: 'Satoshi Medium';
     src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
-        url('./fonts/Satoshi-Medium.woff') format('woff');
+        url('../fonts/Satoshi-Medium.woff') format('woff');
     font-weight: 500;
 }
 
@@ -207,7 +213,7 @@
                 display: inline-block;
                 font-size: 1rem;
                 max-width: 375px;
-                line-height: 1.4;
+                line-height: 1.6;
                 vertical-align: top;
             }
                 .box-bajada p b{
@@ -359,8 +365,7 @@
         }
 
         /* PORTAFOLIO SECTION */
-        #portafolio {
-            background: var(--dark-bg);
+        #portafolio {            
             padding: 0 0 8rem;
             overflow: hidden;
         }
@@ -389,7 +394,13 @@
             text-transform: none;
         }
 
-        .slider-container {
+        .section-content-portafolio{
+            background-color: #000;
+            margin: 0 auto;
+            max-width: inherit;
+        }
+
+        .slider-container {            
             position: relative;
             height: 600px;
             max-width: 1200px;
@@ -436,14 +447,21 @@
             z-index: 2;
         }
 
+        .slide-text{
+            transform: translate(0, 25%);
+        }
+
         .slide-text h3 {
+            font: 1.2rem/1.3 'Satoshi Medium';
             font-size: 2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
 
         .slide-text p {
+            border-bottom: 1px solid rgba(18, 18, 24, 1);
+            padding-bottom: 30px;
             color: var(--text-gray);
-            line-height: 1.8;
+            font: 1.1rem/1.5 'Satoshi Regular';
             margin-bottom: 1.5rem;
         }
 
@@ -453,24 +471,29 @@
         }
 
         .slide-text li {
-            color: var(--text-gray);
+            color: #fff;
             line-height: 1.8;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.3rem;
             padding-left: 1.5rem;
             position: relative;
         }
+            .slide-text li:nth-child(1) {
+                padding: 0;
+            }
+            .slide-text li:nth-child(1):before {
+                display: none;
+            }
 
         .slide-text li:before {
             content: "•";
             position: absolute;
             left: 0;
-            color: var(--primary-blue);
+            color: #fff;
         }
 
         .slide-image {
             width: 100%;
             height: 100%;
-            border-radius: 20px;
             overflow: hidden;
         }
 
@@ -488,10 +511,10 @@
         }
 
         .portfolio-bullet {
-            width: 12px;
-            height: 12px;
+            width: 11px;
+            height: 11px;
             border-radius: 50%;
-            background: rgba(255, 255, 255, 0.3);
+            background: #c2c2c2;
             cursor: pointer;
             transition: all 0.3s;
             border: none;
@@ -499,8 +522,8 @@
         }
 
         .portfolio-bullet.active {
-            background: var(--primary-blue);
-            transform: scale(1.3);
+            background: #000;
+            transform: scale(1.2);
         }
 
         /* PROYECTOS SECTION */

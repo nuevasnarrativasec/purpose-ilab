@@ -2,31 +2,36 @@
         const portfolioSlides = [
             {
                 title: "Universidades y Transferencia Tecnológica",
-                content: "La transferencia tecnológica universitaria constituye un puente fundamental entre la investigación académica y el desarrollo empresarial, permitiendo que el conocimiento científico generado en las universidades se transforme en soluciones prácticas.",
+                content: "Preparando las capacidades necesarias para transferir conocimiento desde la investigación científica hacia mercados estratégicos.",
                 points: [
-                    "Diagnóstico de Capacidades Tecnológicas",
-                    "Leyes de Ruta y Políticas de Transferencia Tecnológica",
-                    "Diseño de Programas de Residencia de Alto Impacto"
+                    "Incluye:",
+                    "Diagnóstico de Capacidades Transferencia Tecnológica",
+                    "Hoja de Ruta y Oferta de Servicios de Innovación",
+                    "Diseño de Programas de Incubación de alto impacto"
                 ],
                 image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800"
             },
             {
-                title: "Innovación Empresarial",
-                content: "Acompañamos a empresas en sus procesos de transformación digital y desarrollo de nuevos modelos de negocio, potenciando su capacidad competitiva y generando valor sostenible.",
+                title: "Innovación Corporativa",
+                content: "Diseñando la estrategia e iniciativas de transformación que guiará la generación del futuro de tu organización.",
                 points: [
+                    "Incluye:",
+                    "Programa de Open Innovation",
+                    "Open Innovation Readiness Assessment y diagnósticos",
                     "Estrategia de Innovación",
-                    "Desarrollo de Capacidades",
-                    "Implementación de Proyectos Piloto"
+                    "Diseño de proyectos y mapa de oportunidades"
                 ],
                 image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800"
             },
             {
-                title: "Ecosistemas de Innovación",
-                content: "Diseñamos y fortalecemos ecosistemas de innovación que conectan actores clave para generar impacto territorial y sectorial sostenible.",
+                title: "Gobierno y Políticas Públicas",
+                content: "Construyendo las iniciativas públicas que potenciarán los sectores estratégicos a través de la ciencia, tecnología e innovación.",
                 points: [
-                    "Mapeo de Ecosistemas",
-                    "Diseño de Programas de Aceleración",
-                    "Articulación Público-Privada"
+                    "Incluye:",
+                    "Open Innovation",
+                    "Open Innovation Readiness Assessment para Clusters",
+                    "Agendas de innovación",
+                    "Paquetes tecnológicos"
                 ],
                 image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800"
             }
