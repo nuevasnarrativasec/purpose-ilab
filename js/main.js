@@ -94,6 +94,61 @@
                 challenge: "",
                 impact: ""
             },
+            {
+                id: 6,
+                tag: "",
+                title: "Purpose Data: Un Propósito Climático basado en Data",
+                reto: "<p><strong>Reto:</strong> Falta de datos críticos para detectar las amenazas climáticas en la amazonía.</p>",
+                image: "../img/bg-portafolio-6.jpg",
+                description: "Purpose Data es una iniciativa que integra tecnologías avanzadas para centralizar, analizar y visualizar grandes volúmenes de información crítica sobre los ecosistemas amazónicos. Esto nos permite contabilizar datos actualizados para desarrollar intervenciones climáticas basadas en evidencia. Nuestro enfoque 'Smart Rainforest' adapta tecnologías avanzadas a las particularidades de la Amazonía a través de herramientas como sensores IoT, modelos predictivos y plataformas de análisis de datos promoviendo la conectividad en zonas remotas y generamos soluciones integradas que incluyen conservación ambiental, resiliencia climática y desarrollo económico sostenible.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
+            {
+                id: 7,
+                tag: "Portafolio Corporativo",
+                title: "Tres Rosas: Validación Técnica, Comercial y Empaquetamiento del Aceite de Testa de Coco como Innovación Sostenible ",
+                reto: "<p><strong>Reto:</strong> Transformar la testa de coco, actualmente subutilizada, en un aceite estable, seguro y de calidad apto para consumo humano.</p>",
+                image: "../img/bg-portafolio-7.jpg",
+                description: "El proyecto de Agroindustrias Las Tres Rosas busca validar técnica y comercialmente un prototipo de extracción mecánica de aceite a partir de la testa de coco, integrando principios de economía circular al reintroducir este residuo en la cadena productiva como insumo de alto valor. El objetivo central es estandarizar el proceso de extracción y validar la calidad del aceite para pasar de usos industriales a consumo humano, empaquetando el conocimiento en un modelo replicable que posicione al Perú como referente regional en la valorización de la testa de coco.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
+            {
+                id: 8,
+                tag: "Portafolio Corporativo",
+                title: "Industrias Amazónicas: Validación técnica y comercial y empaquetamiento de un prototipo de discos mulch",
+                reto: "<p><strong>Reto:</strong> Validar técnica y comercialmente la transformación de la cáscara de sacha inchi en un disco mulch biodegradable con desempeño agronómico competitivo frente al plástico.</p>",
+                image: "../img/bg-portafolio-8.jpg",
+                description: "El proyecto desarrolla y optimiza un disco mulch biodegradable de 60 cm elaborado en 80 % con cáscara de sacha inchi, un residuo agroindustrial que actualmente alcanza cerca de 25 toneladas al año sin un uso productivo. A través de procesos de molienda, formulación y prensado, este subproducto se transforma en un insumo agrícola funcional que se instala al inicio del cultivo y se incorpora al suelo al final de la campaña, sin necesidad de retiro. Su objetivo es reducir el estrés hídrico y la dependencia del mulch plástico, mejorando la retención de humedad, el control de malezas y la calidad del suelo, al mismo tiempo que disminuye la generación de microplásticos. De este modo, el proyecto integra la economía circular en la cadena del sacha inchi, convirtiendo un pasivo ambiental en una solución sostenible con potencial de escalamiento para otros cultivos.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
+            {
+                id: 9,
+                tag: "Portafolio Corporativo",
+                title: "Shanantina: De residuo a recurso: validación técnica, comercial y empaquetamiento de la testa de sacha inchi como sustrato para la producción de hongos comestibles",
+                reto: "<p><strong>Reto:</strong>  Demostrar la viabilidad y competitividad de la testa de sacha inchi como sustrato para el cultivo de hongos comestibles y funcionales, superando la variabilidad del insumo, los riesgos de contaminación y los desafíos de escalamiento.</p>",
+                image: "../img/bg-portafolio-9.jpg",
+                description: "El proyecto se enfoca en desarrollar y empaquetar un prototipo de sustrato circular elaborado a partir de la testa de sacha inchi, subproducto actualmente desaprovechado o quemado, para su uso en el cultivo de hongos medicinales y gourmet, principalmente Ganoderma lucidum. Para ello, se evaluarán mezclas con otros residuos locales (aserrín, cáscara de arroz), se medirán indicadores productivos como tiempo de colonización, eficiencia biológica, número de cosechas y calidad nutricional, y se validará su inocuidad y perfil funcional. Asimismo, generará un paquete tecnológico estandarizado que asegure su replicabilidad y escalamiento, posicionando a Shanantina como referente en la valorización de biomasa amazónica bajo un modelo de economía circular.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
+            {
+                id: 10,
+                tag: "Portafolio Corporativo",
+                title: "Nutrishake: Virgilio AI Circular: Validación técnica, comercial y empaquetamiento de un módulo de formulación alimentaria del sistema de diseño de alimentos Virgilio AI.",
+                reto: "<p><strong>Reto:</strong> Lograr la consolidación técnica y comercial del módulo Virgilio AI Circular para transformar subproductos agroindustriales en ingredientes aptos para nuevos alimentos, asegurando simultáneamente calidad nutricional, desempeño sensorial, cumplimiento normativo y aceptación de mercado frente a la variabilidad de estos insumos.</p>",
+                image: "../img/bg-portafolio-10.jpg",
+                description: "El proyecto integra un módulo de economía circular en Virgilio AI para diseñar alimentos a partir de subproductos y excedentes, optimizando nutrición, sensorialidad, costos y sostenibilidad, con el fin de reducir desperdicios, crear nuevas líneas de productos y escalar una plataforma pionera de formulación circular en Latinoamérica.",
+                additionalInfo: "",
+                challenge: "",
+                impact: ""
+            },
         ];
 
         // Initialize Portfolio Slider

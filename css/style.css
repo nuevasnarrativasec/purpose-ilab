@@ -824,6 +824,10 @@
             transition: transform 0.2s;
             margin-top: 25px;
         }
+            .btn-cta a{
+                color: #000;
+                text-decoration: none;
+            }
 
         .btn-cta:hover {
             transform: scale(1.05);
