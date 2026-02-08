@@ -9,7 +9,7 @@
                     "Hoja de Ruta y Oferta de Servicios de Innovación",
                     "Diseño de Programas de Incubación de alto impacto"
                 ],
-                image: "../img/bg-slider-1.jpg"
+                image: "./img/bg-slider-1.jpg"
             },
             {
                 title: "Innovación Corporativa",
@@ -21,7 +21,7 @@
                     "Estrategia de Innovación",
                     "Diseño de proyectos y mapa de oportunidades"
                 ],
-                image: "../img/bg-slider-2.jpg"
+                image: "./img/bg-slider-2.jpg"
             },
             {
                 title: "Gobierno y Políticas Públicas",
@@ -33,7 +33,7 @@
                     "Agendas de innovación",
                     "Paquetes tecnológicos"
                 ],
-                image: "../img/bg-slider-3.jpg"
+                image: "./img/bg-slider-3.jpg"
             }
         ];
 
@@ -44,7 +44,7 @@
                 tag: "Portafolio Corporativo",
                 title: "Innovación Abierta para el Tratamiento de efluentes y Contaminación en el sector Ganadero",
                 reto: "<p><strong>Reto:</strong> Efluentes contaminantes y altos costos regulatorios.</p>",
-                image: "../img/bg-portafolio-1.jpg",
+                image: "./img/bg-portafolio-1.jpg",
                 description: "El tratamiento ineficiente de efluentes es un desafío ambiental y operativo para el sector ganadero, con impactos en suelo, agua y costos regulatorios. Este proyecto, desarrollado con una empresa ganadera, buscó transformar los residuos en recursos valiosos, como energía y fertilizantes, mediante tecnologías innovadoras. A través de un programa de innovación abierta, se realizó un estudio de vigilancia tecnológica para identificar soluciones como digestores anaeróbicos, membranas avanzadas, procesos de oxidación y biofiltración.",
                 additionalInfo: "",
                 challenge: "",
@@ -55,7 +55,7 @@
                 tag: "Portafolio Corporativo",
                 title: "Innovación Abierta para la Seguridad Vial (transporte)",
                 reto: "<p><strong>Reto:</strong> 70% de accidentes causados por factores humanos. explorar e instalar tecnologías que reduzcan los accidentes por factores humanos.</p>",
-                image: "../img/bg-portafolio-2.jpg",
+                image: "./img/bg-portafolio-2.jpg",
                 description: "Cada año, los accidentes de tránsito causan 1.2 millones de muertes en el mundo. En Perú, solo en 2024 hubo 86,757 siniestros, con 56,747 heridos y 3,002 fallecidos, el 70 % atribuidos a errores humanos, principalmente en ómnibus. Este proyecto, en alianza con una empresa líder del sector transporte, aplica Inteligencia Artificial para mejorar la seguridad vial. Analiza en tiempo real la velocidad, aceleración y patrones de manejo, identificando riesgos y previniendo accidentes. Además, incorpora un sistema de detección de somnolencia basado en visión computacional y redes neuronales, permitiendo una respuesta inmediata ante posibles riesgos.",
                 additionalInfo: "",
                 challenge: "",
@@ -66,7 +66,7 @@
                 tag: "Portafolio Corporativo",
                 title: "El Cierre de Minas en el Perú: Logrando un Cierre de Minas Regenerativo e Integrado a través de la Biotecnología",
                 reto: "<p><strong>Reto:</strong> Transformar el cierre de minas en el Perú hacia un modelo regenerativo y sostenible, capaz de reducir el drenaje ácido y las altas concentraciones de sulfatos.</p>",
-                image: "../img/bg-portafolio-3.jpg",
+                image: "./img/bg-portafolio-3.jpg",
                 description: "El proyecto busca validar e implementar un modelo integral de cierre de minas basado en biotecnología, que combine humedales reactivos, consorcios de bacterias sulfatoreductoras y producción masiva de plantas nativas mediante biotecnología vegetal. Esta solución permitirá tratar aguas ácidas con alto contenido de sulfatos, restaurar ecológicamente áreas degradadas y estabilizar relaves y efluentes mineros, generando protocolos escalables y transferibles al sector, con miras a convertir antiguos pasivos ambientales en activos de desarrollo sostenible para los territorios.",
                 additionalInfo: "",
                 challenge: "",
@@ -77,7 +77,7 @@
                 tag: "Portafolio de Gobierno",
                 title: "Programa de Comercialización de Tecnologías para CONCYTEC",
                 reto: "",
-                image: "../img/bg-portafolio-4.jpg",
+                image: "./img/bg-portafolio-4.jpg",
                 description: "El proyecto busca brindar herramientas y mejores prácticas para apoyar la identificación de oportunidades y la comercialización a los desarrollos científicos y tecnológicos de los centros de I+D y universidades. Además de generar vínculos y asociaciones entre la industria y el sector académico de la región, procurando una mejor alineación entre los desafíos de la industria y las soluciones desarrolladas por la academia. El propósito es acercar los resultados de la investigación a la sociedad logrando generar un mayor impacto y la apropiación social del conocimiento.  Asimismo, como resultado del programa, se dejó en los participantes no solamente capacidades, sino también documentos de referencia para la elaboración de marketing tecnológico, manuales y guías de trabajo para la identificación, evaluación y ejecución de los procesos de transferencia tecnológica, así como para la valuación de las tecnologías y la generación de habilidades de negociación con posibles socios, inversores, licenciatarios y demás partes interesadas.",
                 additionalInfo: "",
                 challenge: "",
@@ -88,7 +88,7 @@
                 tag: "Portafolio Universidad",
                 title: "Diagnóstico innovación y transferencia tecnológica",
                 reto: "<p><strong>Reto:</strong> Evaluar las necesidades y brechas para transferir conocimiento de la investigación al mercado.</p>",
-                image: "../img/bg-portafolio-5.jpg",
+                image: "./img/bg-portafolio-5.jpg",
                 description: "En este proyecto ayudamos a una universidad a analizar las capacidades instaladas y las brechas para transferir conocimiento desde la investigación científica hacia la industria. Con nuestro modelo que permite analizar 4 grandes dimensiones para la innovación y transferencia tecnológica, nos reunimos con gestores tecnológicos, rectores y vicerrectores, directivos, investigadores y académicos para evaluar la ruta hacia el mercado de manera estratégica y colaborativa.",
                 additionalInfo: "",
                 challenge: "",
@@ -99,7 +99,7 @@
                 tag: "",
                 title: "Purpose Data: Un Propósito Climático basado en Data",
                 reto: "<p><strong>Reto:</strong> Falta de datos críticos para detectar las amenazas climáticas en la amazonía.</p>",
-                image: "../img/bg-portafolio-6.jpg",
+                image: "./img/bg-portafolio-6.jpg",
                 description: "Purpose Data es una iniciativa que integra tecnologías avanzadas para centralizar, analizar y visualizar grandes volúmenes de información crítica sobre los ecosistemas amazónicos. Esto nos permite contabilizar datos actualizados para desarrollar intervenciones climáticas basadas en evidencia. Nuestro enfoque 'Smart Rainforest' adapta tecnologías avanzadas a las particularidades de la Amazonía a través de herramientas como sensores IoT, modelos predictivos y plataformas de análisis de datos promoviendo la conectividad en zonas remotas y generamos soluciones integradas que incluyen conservación ambiental, resiliencia climática y desarrollo económico sostenible.",
                 additionalInfo: "",
                 challenge: "",
@@ -110,7 +110,7 @@
                 tag: "Portafolio Corporativo",
                 title: "Tres Rosas: Validación Técnica, Comercial y Empaquetamiento del Aceite de Testa de Coco como Innovación Sostenible ",
                 reto: "<p><strong>Reto:</strong> Transformar la testa de coco, actualmente subutilizada, en un aceite estable, seguro y de calidad apto para consumo humano.</p>",
-                image: "../img/bg-portafolio-7.jpg",
+                image: "./img/bg-portafolio-7.jpg",
                 description: "El proyecto de Agroindustrias Las Tres Rosas busca validar técnica y comercialmente un prototipo de extracción mecánica de aceite a partir de la testa de coco, integrando principios de economía circular al reintroducir este residuo en la cadena productiva como insumo de alto valor. El objetivo central es estandarizar el proceso de extracción y validar la calidad del aceite para pasar de usos industriales a consumo humano, empaquetando el conocimiento en un modelo replicable que posicione al Perú como referente regional en la valorización de la testa de coco.",
                 additionalInfo: "",
                 challenge: "",
@@ -132,7 +132,7 @@
                 tag: "Portafolio Corporativo",
                 title: "Shanantina: De residuo a recurso: validación técnica, comercial y empaquetamiento de la testa de sacha inchi como sustrato para la producción de hongos comestibles",
                 reto: "<p><strong>Reto:</strong>  Demostrar la viabilidad y competitividad de la testa de sacha inchi como sustrato para el cultivo de hongos comestibles y funcionales, superando la variabilidad del insumo, los riesgos de contaminación y los desafíos de escalamiento.</p>",
-                image: "../img/bg-portafolio-9.jpg",
+                image: "./img/bg-portafolio-9.jpg",
                 description: "El proyecto se enfoca en desarrollar y empaquetar un prototipo de sustrato circular elaborado a partir de la testa de sacha inchi, subproducto actualmente desaprovechado o quemado, para su uso en el cultivo de hongos medicinales y gourmet, principalmente Ganoderma lucidum. Para ello, se evaluarán mezclas con otros residuos locales (aserrín, cáscara de arroz), se medirán indicadores productivos como tiempo de colonización, eficiencia biológica, número de cosechas y calidad nutricional, y se validará su inocuidad y perfil funcional. Asimismo, generará un paquete tecnológico estandarizado que asegure su replicabilidad y escalamiento, posicionando a Shanantina como referente en la valorización de biomasa amazónica bajo un modelo de economía circular.",
                 additionalInfo: "",
                 challenge: "",
@@ -143,7 +143,7 @@
                 tag: "Portafolio Corporativo",
                 title: "Nutrishake: Virgilio AI Circular: Validación técnica, comercial y empaquetamiento de un módulo de formulación alimentaria del sistema de diseño de alimentos Virgilio AI.",
                 reto: "<p><strong>Reto:</strong> Lograr la consolidación técnica y comercial del módulo Virgilio AI Circular para transformar subproductos agroindustriales en ingredientes aptos para nuevos alimentos, asegurando simultáneamente calidad nutricional, desempeño sensorial, cumplimiento normativo y aceptación de mercado frente a la variabilidad de estos insumos.</p>",
-                image: "../img/bg-portafolio-10.jpg",
+                image: "./img/bg-portafolio-10.jpg",
                 description: "El proyecto integra un módulo de economía circular en Virgilio AI para diseñar alimentos a partir de subproductos y excedentes, optimizando nutrición, sensorialidad, costos y sostenibilidad, con el fin de reducir desperdicios, crear nuevas líneas de productos y escalar una plataforma pionera de formulación circular en Latinoamérica.",
                 additionalInfo: "",
                 challenge: "",
