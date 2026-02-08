@@ -967,7 +967,7 @@
             }
 
             .team-section {
-                grid-template-columns: 1fr;
+                grid-template-columns: 1fr 1fr;
             }
 
             .slide {
@@ -990,6 +990,15 @@
                 padding: 2rem 5%;
                 background: #000;
             }
+
+            .hero-content{
+                height: 65vh;
+            }
+                .box-bajada{
+                    bottom: 0;
+                    position: absolute;                    
+                    right: 0;
+                }
 
             .slider-container {
                 height: 800px;
@@ -1017,10 +1026,14 @@
             }
 
             .cta-content {
-                flex-direction: column;
+                max-width: 88%;
+                /*flex-direction: column;
                 gap: 2rem;
-                text-align: center;
+                text-align: center;*/
             }
+                .cta-content video{
+                    margin-right: -14%;
+                }
         }        
 
         @media (max-width: 768px) {
