@@ -1087,6 +1087,48 @@
             .slide-text li {
                 font-size: 0.9rem;
             }
+
+            #contactanos{
+                padding: 0 0 2rem;
+            }
+                .cta-content{
+                    background: transparent;
+                    box-sizing: border-box;
+                    margin: 0 auto;
+                    max-width: 98%;
+                    padding: 0 0 40px;      
+                }
+                .cta-text h2{
+                    font-size: 2rem;
+                    padding: 0 5px;
+                }
+                .cta-content video{
+                        order: 1;
+                    margin: 0;
+                    margin-bottom: -160px;
+                    z-index: 1;
+                    width: 320px;
+                    height: 320px;
+                    max-width: inherit;
+                }
+                .cta-content .cta-text{
+                    order: 2;
+                    background: var(--primary-blue);
+                    padding: 200px 0 40px;
+                    max-width: 90%;
+                }
+            .footer-logo{
+                display: block;
+            }
+                .footer-logo img {
+                    max-width: 160px;
+                }
+                .footer-text{
+                    font-size: 1rem;
+                }
+            .box-redes-footer{
+                align-items: center;
+            }
         }
 
         @media (max-height: 900px) {
