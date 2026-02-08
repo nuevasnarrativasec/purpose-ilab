@@ -923,6 +923,43 @@
             width: 100%;
         }
 
+        @media (max-width: 768px){
+
+            .hero-content{
+                height: 70vh;
+                padding: 0 5%;
+                position: relative;
+            }
+                .box-bajada{
+                    bottom: 0;
+                    position: absolute;                    
+                    right: 0;
+                }
+            .metodologia-grid{
+                padding: 0 5%;
+            }
+            .cta-content{
+                padding: 5% 0;
+                max-width: 100%;
+            }
+                .cta-text{
+                    order: 2;
+                }
+                .cta-content video{
+                    margin-right: 0;
+                }
+            .footer-logo img{
+                max-width: 160px;
+                display: block;
+                margin: 0 auto;
+            }
+            .box-redes-footer{
+                align-items: center;
+            }
+
+        }
+
+
         /* RESPONSIVE */
         @media (max-width: 1024px) {
             .hero-content h1 {
