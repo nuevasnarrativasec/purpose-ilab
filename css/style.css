@@ -428,26 +428,26 @@
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
             align-items: center;
-            transform: translateY(100%);
+            transform: translateX(100%);
             opacity: 0;
-            transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.8s ease;
+            transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.8s ease;
             z-index: 1;
         }
 
         .slide.active {
-            transform: translateY(0);
+            transform: translateX(0);
             opacity: 1;
             z-index: 3;
         }
 
         .slide.previous {
-            transform: translateY(0);
+            transform: translateX(0);
             opacity: 1;
             z-index: 2;
         }
 
         .slide.exiting {
-            transform: translateY(-100%);
+            transform: translateX(-100%);
             opacity: 0;
             z-index: 2;
         }
@@ -491,7 +491,7 @@
             }
 
         .slide-text li:before {
-            content: "●";
+            content: "â—";
             position: absolute;
             left: 0;
             color: #fff;
@@ -1112,7 +1112,7 @@
                 padding: 0 10px;
             }
 
-            /* Slider de portafolio en móvil pequeño */
+            /* Slider de portafolio en mÃ³vil pequeÃ±o */
             .slider-container {
                 height: 100vh;
             }
