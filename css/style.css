@@ -372,6 +372,7 @@
         #portafolio {            
             padding: 0;
             padding-bottom: 5px;
+            padding-top: 4rem;
             overflow: hidden;
         }
 
@@ -1117,7 +1118,7 @@
 
             /* Slider de portafolio en mÃ³vil pequeÃ±o */
             .slider-container {
-                height: 100vh;
+                height: 115vh;
             }
 
             .slider-wrapper {
