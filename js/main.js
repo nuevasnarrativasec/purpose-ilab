@@ -28,12 +28,22 @@
                 content: "Construyendo las iniciativas públicas que potenciarán los sectores estratégicos a través de la ciencia, tecnología e innovación.",
                 points: [
                     "Incluye:",
-                    "Open Innovation",
-                    "Open Innovation Readiness Assessment para Clusters",
                     "Agendas de innovación",
-                    "Paquetes tecnológicos"
+                    "Comercialización tecnológica",
+                    "Programa de Open Innovation y Compra Pública de Innovación",
+                    "Open Innovation Readiness Assessment para Sectores estratégicos"
                 ],
                 image: "./img/bg-slider-3.jpg"
+            },
+            {
+                title: "Ecosistemas de i+e",
+                content: "Definiendo el futuro innovador de un ecosistema a través de una estrategia que permita desarrollar, usar y difundir innovación.",
+                points: [
+                    "Incluye:",
+                    "Programas de Aceleración",
+                    "Estrategias de difusión y adopción de innovación"
+                ],
+                image: "./img/bg-slider-4.jpg"
             }
         ];
 
