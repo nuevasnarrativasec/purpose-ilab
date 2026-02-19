@@ -493,7 +493,7 @@
             }
 
         .slide-text li:before {
-            content: "â—";
+            content: "●";
             position: absolute;
             left: 0;
             color: #fff;
