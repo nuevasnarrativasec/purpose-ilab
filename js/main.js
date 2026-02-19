@@ -88,7 +88,7 @@
                 title: "Programa de Comercialización de Tecnologías para CONCYTEC",
                 reto: "",
                 image: "./img/bg-portafolio-4.jpg",
-                description: "El proyecto busca brindar herramientas y mejores prácticas para apoyar la identificación de oportunidades y la comercialización a los desarrollos científicos y tecnológicos de los centros de I+D y universidades. Además de generar vínculos y asociaciones entre la industria y el sector académico de la región, procurando una mejor alineación entre los desafíos de la industria y las soluciones desarrolladas por la academia. El propósito es acercar los resultados de la investigación a la sociedad logrando generar un mayor impacto y la apropiación social del conocimiento.  Asimismo, como resultado del programa, se dejó en los participantes no solamente capacidades, sino también documentos de referencia para la elaboración de marketing tecnológico, manuales y guías de trabajo para la identificación, evaluación y ejecución de los procesos de transferencia tecnológica, así como para la valuación de las tecnologías y la generación de habilidades de negociación con posibles socios, inversores, licenciatarios y demás partes interesadas.",
+                description: "El proyecto busca brindar herramientas y mejores prácticas para apoyar la identificación de oportunidades y la comercialización a los desarrollos científicos y tecnológicos de los centros de I+D y universidades. Además de generar vínculos y asociaciones entre la industria y el sector académico de la región, procurando una mejor alineación entre los desafíos de la industria y las soluciones desarrolladas por la academia. El propósito es acercar los resultados de la investigación a la sociedad logrando generar un mayor impacto y la apropiación social del conocimiento. Asimismo, como resultado del programa, se dejó en los participantes no solamente capacidades, sino también documentos de referencia para la elaboración de marketing tecnológico, manuales y guías de trabajo para la identificación, evaluación y ejecución de los procesos de transferencia tecnológica, así como para la valuación de las tecnologías y la generación de habilidades de negociación con posibles socios, inversores, licenciatarios y demás partes interesadas.",
                 additionalInfo: "",
                 challenge: "",
                 impact: ""
@@ -141,7 +141,7 @@
                 id: 9,
                 tag: "Portafolio Corporativo",
                 title: "Shanantina: De residuo a recurso: validación técnica, comercial y empaquetamiento de la testa de sacha inchi como sustrato para la producción de hongos comestibles",
-                reto: "<p><strong>Reto:</strong>  Demostrar la viabilidad y competitividad de la testa de sacha inchi como sustrato para el cultivo de hongos comestibles y funcionales, superando la variabilidad del insumo, los riesgos de contaminación y los desafíos de escalamiento.</p>",
+                reto: "<p><strong>Reto:</strong> Demostrar la viabilidad y competitividad de la testa de sacha inchi como sustrato para el cultivo de hongos comestibles y funcionales, superando la variabilidad del insumo, los riesgos de contaminación y los desafíos de escalamiento.</p>",
                 image: "./img/bg-portafolio-9.jpg",
                 description: "El proyecto se enfoca en desarrollar y empaquetar un prototipo de sustrato circular elaborado a partir de la testa de sacha inchi, subproducto actualmente desaprovechado o quemado, para su uso en el cultivo de hongos medicinales y gourmet, principalmente Ganoderma lucidum. Para ello, se evaluarán mezclas con otros residuos locales (aserrín, cáscara de arroz), se medirán indicadores productivos como tiempo de colonización, eficiencia biológica, número de cosechas y calidad nutricional, y se validará su inocuidad y perfil funcional. Asimismo, generará un paquete tecnológico estandarizado que asegure su replicabilidad y escalamiento, posicionando a Shanantina como referente en la valorización de biomasa amazónica bajo un modelo de economía circular.",
                 additionalInfo: "",
@@ -160,6 +160,58 @@
                 impact: ""
             },
         ];
+
+
+        // ARTICLES DATA
+        const articles = [
+            {
+                date: "10 FEB",
+                source: "TECNOLOGÍA",
+                title: "Innovación Abierta para el Tratamiento de efluentes y Contaminación en el sector Ganadero",
+                description: "Efluentes contaminantes y altos costos regulatorios.",
+                image: "./img/bg-portafolio-1.jpg",
+                url: "https://medium.com/"
+            },
+            {
+                date: "13 FEB",
+                source: "INNOVACIÓN",
+                title: "Innovación abierta para la Seguridad Vial (transporte)",
+                description: "70% de accidentes causados por factores humanos. explorar e instalar tecnologías que reduzcan los accidentes por factores humanos.",
+                image: "./img/bg-portafolio-2.jpg",
+                url: "https://medium.com/"
+            },
+            {
+                date: "15 FEB",
+                source: "MEDIO AMBIENTE",
+                title: "El Cierre de Minas en el Perú: Logrando un Cierre de Minas Regenerativo e Integrado a través de la Biotecnología",
+                description: "Transformar el cierre de minas en el Perú hacia un modelo regenerativo y sostenible, capaz de reducir el drenaje ácido y las altas concentraciones de sulfatos.",
+                image: "./img/bg-portafolio-3.jpg",
+                url: "https://medium.com/"
+            }
+        ];
+
+        function initArticles() {
+            ['articulosGrid', 'articulosGridDetail'].forEach(containerId => {
+                const grid = document.getElementById(containerId);
+                if (!grid) return;
+                articles.forEach(article => {
+                    const card = document.createElement('div');
+                    card.className = 'articulo-card';
+                    card.innerHTML = `
+                        <div class="articulo-image">
+                            <img src="${article.image}" alt="${article.title}">
+                        </div>
+                        <div class="articulo-info">
+                            <span class="articulo-meta">${article.date} - ${article.source}</span>
+                            <h3>${article.title}</h3>
+                            <p>${article.description}</p>
+                            <a href="${article.url}" target="_blank" class="articulo-link">Ver más</a>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+            });
+        }
 
         /// test
         // Initialize Portfolio Slider
@@ -403,6 +455,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             initPortfolioSlider();
             initProjects();
+            initArticles();
             proyectosWrapper.style.cursor = 'grab';
             
             // Mobile menu toggle
