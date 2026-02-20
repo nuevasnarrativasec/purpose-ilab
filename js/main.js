@@ -43,7 +43,7 @@
                     "Programas de Aceleración",
                     "Estrategias de difusión y adopción de innovación"
                 ],
-                image: "./img/bg-slider-4.jpg"
+                image: "./img/bg-slider-4-2.jpg"
             }
         ];
 
