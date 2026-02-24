@@ -577,6 +577,7 @@
         }
 
         .proyectos-scroll-container {
+            padding: 0 0 0 20px;
             position: relative;
             /*max-width: 1400px;*/
             margin: 0 auto;
@@ -588,6 +589,9 @@
             scroll-behavior: smooth;
             scrollbar-width: none;
             -ms-overflow-style: none;
+            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x proximity;
+            will-change: scroll-position;
         }
 
         .proyectos-wrapper::-webkit-scrollbar {
@@ -599,6 +603,7 @@
             gap: 2rem;
             padding: 1rem 0;
             padding-left: 5%;
+            padding-right: 5%;
         }
 
         .proyecto-card {
@@ -607,6 +612,7 @@
             border-radius: 15px;
             overflow: hidden;
             transition: transform 0.3s;
+            scroll-snap-align: start;
         }
 
         .proyecto-card:hover {
@@ -975,7 +981,7 @@
             }
 
             .proyecto-card {
-                flex: 0 0 300px;
+                flex: 0 0 80vw;
             }
 
             .footer-content {
@@ -1078,7 +1084,7 @@
                 position: absolute;
             }
                 .hero-content h1 {
-                    font-size: 1.8rem;
+                    font-size: 2.6rem;
                 }
             #conocenos{
                 padding: 8rem 5% 4rem;
@@ -1153,6 +1159,14 @@
 
             #proyectos{
                 padding: 8rem 0 11rem;
+            }
+
+            .proyecto-card {
+                flex: 0 0 82vw;
+            }
+
+            .proyecto-image {
+                height: 280px;
             }
 
             #contactanos{

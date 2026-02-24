@@ -435,11 +435,10 @@
             if (!isDown) return;
             e.preventDefault();
             const x = e.pageX - proyectosWrapper.offsetLeft;
-            const walk = (x - startX) * 2;
+            const walk = (x - startX) * 1;
             proyectosWrapper.scrollLeft = scrollLeft - walk;
         });
 
-        // Touch events for mobile
         proyectosWrapper.addEventListener('touchstart', (e) => {
             startX = e.touches[0].pageX - proyectosWrapper.offsetLeft;
             scrollLeft = proyectosWrapper.scrollLeft;
@@ -447,7 +446,7 @@
 
         proyectosWrapper.addEventListener('touchmove', (e) => {
             const x = e.touches[0].pageX - proyectosWrapper.offsetLeft;
-            const walk = (x - startX) * 2;
+            const walk = (x - startX) * 1;
             proyectosWrapper.scrollLeft = scrollLeft - walk;
         });
 
